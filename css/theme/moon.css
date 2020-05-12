@@ -72,7 +72,7 @@ body {
 
 .reveal h1 {
   text-shadow: none; }
- 
+
 
 /*********************************************
  * OTHER
@@ -98,7 +98,7 @@ body {
 .reveal ol,
 .reveal dl,
 .reveal ul {
-  display: inline-block;
+  display: block;
   text-align: left;
   margin: 0 0 0 1em; }
 
@@ -210,36 +210,43 @@ body {
 
 .reveal small * {
   vertical-align: top; }
-  
+
 .reveal .easy {
   color: #17c668;}
-  
+
 .reveal .normal {
-  color: #817d0f;}  
-  
+  color: #817d0f;}
+
  .reveal .hard {
-  color: #F187BF;} 
-  
+  color: #F187BF;}
+
  .reveal .extra {
   color: #d0e6fa;
   font-weight: bold;}
-   
-  
+
+ .reveal .caption {
+ font-size: 75%;
+ font-weight: 200;
+ text-align: center;}
 
 /*********************************************
  * LINKS
  *********************************************/
 .reveal a {
-  color: #0f1381;
+  color: #e6f4ff;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #171dc6;
+  color: #468000;
   text-shadow: none;
   border: none; }
+
+.reveal a:visited {
+  color: #80c6ff;
+}
 
 .reveal .roll span:after {
   color: #fff;
